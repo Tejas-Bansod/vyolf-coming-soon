@@ -68,7 +68,7 @@ export default function Home() {
 
         {/* Logo Section */}
         <div className="mb-8 md:mb-12 animate-float flex flex-col items-center">
-          <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 transition-transform duration-700 hover:scale-105 group">
+          <div className="relative w-68 h-68 sm:w-84 sm:h-84 md:w-120 md:h-120 transition-transform duration-700 hover:scale-105 group">
             <Image
               src="/Transprent Vyolf Logo PNG.png"
               alt="Vyolf Logo"
@@ -77,7 +77,7 @@ export default function Home() {
               priority
             />
             {/* TM Symbol */}
-            <span className="absolute top-4 -right-2 md:top-8 md:-right-4 text-[10px] md:text-xs font-light text-white/40 tracking-widest select-none">
+            <span className="absolute top-4 right-2 md:top-20 md:right-15 text-[10px] md:text-xs font-light text-white/40 tracking-widest select-none">
              TM 
             </span>
             {/* Shine Effect Overlay */}
@@ -98,18 +98,19 @@ export default function Home() {
             </div>
           </div>
           {/* Company Rights */}
-          <div className="mt-2 text-[8px] md:text-[10px] tracking-[0.4em] text-white/20 uppercase font-light select-none animate-fade-in">
-            &copy; All rights reserved
-          </div>
+          
         </div>
 
         {/* Text Content */}
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50 pb-2">
             COMING SOON
+            <div className="mt-2 text-[8px] md:text-[10px] tracking-[0.4em] text-white/20 uppercase font-light select-none animate-fade-in">
+            &copy; All rights reserved
+          </div>
           </h1>
           <p className="text-lg sm:text-xl text-white/50 font-light tracking-wide max-w-2xl mx-auto">
-            We are crafting a digital masterpiece. <br className="hidden sm:block" />
+            We are crafting a masterpiece. <br className="hidden sm:block" />
             Be the first to experience the revolution.
           </p>
         </div>
