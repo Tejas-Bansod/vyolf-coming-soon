@@ -78,7 +78,7 @@ export default function Home() {
             />
             {/* TM Symbol */}
             <span className="absolute top-4 -right-2 md:top-8 md:-right-4 text-[10px] md:text-xs font-light text-white/40 tracking-widest select-none">
-              &copy; TM
+             TM
             </span>
             {/* Shine Effect Overlay */}
             <div
