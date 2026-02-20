@@ -94,7 +94,7 @@ export default function Home() {
           <p className="text-2xl sm:text-3xl lg:text-4xl text-white/50 font-light tracking-wide max-w-2xl mx-auto">
             {/* We are crafting a masterpiece. <br className="hidden sm:block" />
             Be Bold. Be Wild. Be Revolutionary. <br className="hidden sm:block" /><br className="hidden sm:block" /> */}
-            The wild doesn’t wait, It conquers!
+            The wild doesn’t wait, it conquers!
           </p>
         </div>
 
