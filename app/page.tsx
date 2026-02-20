@@ -68,7 +68,7 @@ export default function Home() {
 
         {/* Logo Section */}
         <div className="flex flex-col items-center -mt-16 sm:-mt-24 md:-mt-32 lg:-mt-48 -mb-10 sm:-mb-14 md:-mb-20 lg:-mb-28">
-          <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]">
+          <div className="relative w-[400px] h-[400px] sm:w-[500px] sm:h-[500px] md:w-[600px] md:h-[600px] lg:w-[700px] lg:h-[700px]">
             <video
               src="/vyolf logo mov.webm"
               autoPlay
@@ -88,10 +88,10 @@ export default function Home() {
 
         {/* Text Content */}
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
-          <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50 pb-2">
+          <h1 className="text-4xl sm:text-7xl md:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50 pb-2">
             Coming Soon
           </h1>
-          <p className="text-sm tracking-wider sm:text-xl lg:text-4xl text-white/50 font-light tracking-wide max-w-2xl mx-auto">
+          <p className="text-2xl sm:text-3xl lg:text-4xl text-white/50 font-light tracking-wide max-w-2xl mx-auto">
             {/* We are crafting a masterpiece. <br className="hidden sm:block" />
             Be Bold. Be Wild. Be Revolutionary. <br className="hidden sm:block" /><br className="hidden sm:block" /> */}
             The wild doesn’t wait, It conquers!
