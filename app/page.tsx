@@ -67,51 +67,34 @@ export default function Home() {
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center text-center">
 
         {/* Logo Section */}
-        <div className="mb-8 md:mb-12 animate-float flex flex-col items-center">
-          <div className="relative w-68 h-68 sm:w-84 sm:h-84 md:w-120 md:h-120 transition-transform duration-700 hover:scale-105 group">
-            <Image
-              src="/Transprent Vyolf Logo PNG.png"
-              alt="Vyolf Logo"
-              fill
-              className="object-contain drop-shadow-[0_0_25px_rgba(255,255,255,0.1)]"
-              priority
+        <div className="flex flex-col items-center -mt-16 sm:-mt-24 md:-mt-32 lg:-mt-48 -mb-10 sm:-mb-14 md:-mb-20 lg:-mb-28">
+          <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]">
+            <video
+              src="/vyolf logo mov.webm"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-contain rounded-full"
             />
             {/* TM Symbol */}
-            <span className="absolute top-4 right-2 md:top-20 md:right-15 text-[10px] md:text-xs font-light text-white/40 tracking-widest select-none">
-             TM 
+            <span className="absolute top-[25%] right-[25%] md:top-[25%] md:right-[25%] lg:top-[27%] lg:right-[26%] text-[10px] md:text-sm font-light text-white/40 tracking-widest select-none">
+              TM
             </span>
-            {/* Shine Effect Overlay */}
-            <div
-              className="absolute inset-0 pointer-events-none z-10"
-              style={{
-                maskImage: 'url("/Transprent Vyolf Logo PNG.png")',
-                maskSize: 'contain',
-                maskRepeat: 'no-repeat',
-                maskPosition: 'center',
-                WebkitMaskImage: 'url("/Transprent Vyolf Logo PNG.png")',
-                WebkitMaskSize: 'contain',
-                WebkitMaskRepeat: 'no-repeat',
-                WebkitMaskPosition: 'center',
-              }}
-            >
-              <div className="absolute top-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-[-25deg] animate-shine" />
-            </div>
           </div>
           {/* Company Rights */}
-          
+
         </div>
 
         {/* Text Content */}
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50 pb-2">
-            COMING SOON
-            <div className="mt-2 text-[8px] md:text-[10px] tracking-[0.4em] text-white/20 uppercase font-light select-none animate-fade-in">
-            &copy; All rights reserved
-          </div>
+          <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50 pb-2">
+            Coming Soon
           </h1>
-          <p className="text-lg sm:text-xl text-white/50 font-light tracking-wide max-w-2xl mx-auto">
-            We are crafting a masterpiece. <br className="hidden sm:block" />
-            Be the first to experience the revolution.
+          <p className="text-sm tracking-wider sm:text-xl lg:text-4xl text-white/50 font-light tracking-wide max-w-2xl mx-auto">
+            {/* We are crafting a masterpiece. <br className="hidden sm:block" />
+            Be Bold. Be Wild. Be Revolutionary. <br className="hidden sm:block" /><br className="hidden sm:block" /> */}
+            The wild doesn’t wait, It conquers!
           </p>
         </div>
 

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vyolf - Coming Soon",
+  title: "Vyolf - Rule The Wild",
   description: "Something extraordinary is coming. Stay tuned.",
 };
 
