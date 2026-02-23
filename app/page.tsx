@@ -97,7 +97,7 @@ export default function Home() {
           <h1 className="text-4xl sm:text-7xl md:text-7xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50 pb-2">
             Coming Soon
           </h1>
-          <p className={`${roadRage.className} text-4xl sm:text-4xl lg:text-3xl text-[#A020F0] drop-shadow-[0_0_15px_rgba(160,32,240,0.5)] tracking-wider max-w-2xl mx-auto`}>
+          <p className={`${roadRage.className} text-2xl sm:text-3xl lg:text-3xl text-[#A020F0] drop-shadow-[0_0_15px_rgba(160,32,240,0.5)] tracking-wider max-w-2xl mx-auto`}>
             {/* We are crafting a masterpiece. <br className="hidden sm:block" />
             Be Bold. Be Wild. Be Revolutionary. <br className="hidden sm:block" /><br className="hidden sm:block" /> */}
             The wild doesn’t wait, it conquers!
